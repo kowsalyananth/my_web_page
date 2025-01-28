@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="my_style.css">
+    <link rel="stylesheet" href="sitepage.css">
+</head>
+<body>
+    <style>
+        .submenu-dropdown{
+            position: absolute;
+            display: none;
+            background-color: rgba(0, 0, 0,0.5);
+            color: #f1c40f;
+        }
+        .submenu-dropdown a:hover{
+            color: #f1c40f;
+        }
+        /*.submenu-title:hover .submenu-dropdown{
+            display: block;
+        }*/
+        .menu-child:hover .submenu-dropdown{
+            display: block;
+        }
+        .submenu-dropdown a{
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            padding: 6px 30px;
+        }
+        .menu-child > input{
+            outline:none;
+            padding: 5px;
+            
+        }
+    </style>
+    <header id="header" class="head-setting">
+        <div class="parent-menu">
+            <div class="menu-child">
+                <img class="logo" src="wp_logo.jpg" alt="logo">
+                <a class="menu-item" href="">Home</a>
+                <a class="menu-item" href="">about</a>
+                <a class="menu-item" href="">Product</a>
+                <a class="menu-item" href="">Services</a>
+                <a class="menu-item" href="gallery.html">Gallery</a>
+             </div>
+             
+        </div>
+        <div class="menu-child">
+            <input type="text" name="" id="" placeholder="Search">
+        </div>
+
+        <div class="menu-child">
+            <span class="submenu-title">My Account🔻</span>
+            <div class="submenu-dropdown">
+                <a href="">Profile</a>
+                <a href="">order</a>
+                <a href="">logout</a>
+            </div>
+        
+
+        </div>
+    </header>
+    <main class="main-settings">
+        <div class="main-div about-con"> 
+            <p class="site-div-titles"> About</p>
+            <br>
+            <img class="about-img" src="shop2.jpg">
+            <h1 class="about-title">Pinky's World</h1>
+            <h2 class="about-title-info">Special place for queens needs</h2>
+            <div id="home" class="main-div home-con">
+                <p>
+                    My business idea is a clothing boutique, Trophy Curves, for plus-size women. Nowadays, appearance plays a vital role, and many women face problems concerning their body image. The clothes that do not fit can cause not only short-term disappointment but also damage self-esteem and influence self-love for an extended period.
+                </p><br>
+                <p>Thus, it is extremely important to support women and demonstrate their beauty with the help of the right high-quality clothes at affordable prices. My boutique is about people and people who want to stop worrying about their everyday selection of the look of the day. The clothes give the opportunity not to apply much thought to the issue of choice between comfort and beauty because it combines both features. </p>
+            </div>
+        </div>
+        <div class="main-div product-con parent-card-con">
+            <p class="site-div-titles">Products</p>
+        </div><br>
+        <div class="card">
+            <div class="left-part">
+                <img src="main-img1.jpg" alt="150 size image">
+                <button type="button">Buy</button>
+            </div>
+            <div class="right-part">
+                <h1>info 1</h1>
+                <h1>info 2</h1>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left-part">
+                <img src="asset\main2-pic.jpg" alt="150 size image">
+            </div>
+            <div class="right-part">
+                <h1>info 1</h1>
+                <h1>info 2</h1>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left-part">
+                <img src="asset\main3-pic.jpg" alt="150 size image">
+            </div>
+            <div class="right-part">
+                <h1>info 1</h1>
+                <h1>info 2</h1>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left-part">
+                <img src="asset\main4-pic.jpg" alt="150 size image">
+                <button type="button"> Buy </button>
+            </div>
+            <div class="right-part">
+                <h1>info 1</h1>
+                <h1>info 2</h1>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left-part">
+                <img src="asset\main5-pic.jpg" alt="150 size image">
+            </div>
+            <div class="right-part">
+                <h1>info 1</h1>
+                <h1>info 2</h1>
+            </div>
+        </div>
+
+
+
+        <div class="main-div contact-con">
+            <p class="site-div-titles">contact</p>
+        </div>
+
+        
+        
+    </main>
+    <footer class="foot-settings">
+        <div class="foot-set">footer is coming</div>
+    </footer>
+    
+</body>
+</html>

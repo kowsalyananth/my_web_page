@@ -1,0 +1,118 @@
+*,html{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-color: #f18ce1;
+    height: 150px;
+}
+.logo{
+    height: 150px;
+    width: 170px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.main-setting{
+    width: 100;
+    height: 100px;
+    background-color: blueviolet;
+    overflow: scroll;
+}
+/*header, foot-settings{
+    background-color: rgb(179, 140, 93);
+}*/
+.home-con{
+    background-color: rgb(179, 140, 93);
+    padding: 3rem;
+}
+.about-con{
+    background-color:rgb(180, 88, 176);
+    text-align: center;
+}
+.about-img{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+.about-title{
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: hsl(51, 57%, 51%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    font-style:italic;
+    font-size:50px;
+}
+.about-title-info{
+    position:absolute;
+    top: 100px;
+    left: 50px;
+    background-color: hsl(51, 57%, 51%);
+    font-family: cursive;
+    font-size: 35px;
+    font-style: italic;
+}
+/*--------end------*/
+
+
+/*----product setting-----*/
+
+.product-con {
+    position: relative;
+    background-color: #f1c40f;
+}
+.parent-card-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 500px;
+    margin: 0;
+    background-color: #f18ce1;
+}
+.card{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    border: 1px solid palevioletred;
+    padding: 30px;
+    margin: 20px;
+}
+.left-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.left-part img{
+    max-width: 350px;
+    max-height: 600px;
+}
+.right.part > h1{
+    color: pink;
+}
+
+
+
+.service-con{
+    background-color:rgb(128, 73, 123);
+    height: 1200px;
+}
+.contact-con{
+    background-color:#554980;
+    height: 1200px;
+    font-size: 50px;
+}
+.foot-settings{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}

@@ -1,0 +1,16 @@
+.parent-menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f18ce1;
+
+}
+.menu-child{
+    color: aqua;
+}
+.menu-item{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
